@@ -1,0 +1,12 @@
+{
+    "name": "sebastien/test-integrateur",
+    "authors": [
+        {
+            "name": "Sébastien",
+            "email": "imbert.sebastien@outlook.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.0"
+    }
+}

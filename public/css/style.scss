@@ -1,0 +1,192 @@
+// VARIABLES
+$yellow: #ffb545;
+$blue: #3465ef;
+
+
+// STYLES GÉNÉRAUX
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+p{
+    line-height: 1.8em;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+.yellow{
+    color: $yellow;
+}
+.blue{
+    color: $blue;
+}
+.text-center{
+    text-align: center!important;
+}
+.section{
+    padding: 100px 0;
+}
+
+
+// NAV
+.logo{
+    padding: 30px 40px;
+    background-color: #fff;
+    display: inline-flex;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    @media screen and (max-width: 767px) {
+        &{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+.nav{
+    padding-top: 50px;
+    @media screen and (max-width: 767px) {
+        &{
+            padding-top: 0;
+        }
+    }
+    .menu{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+        @media screen and (max-width: 767px) {
+            &{
+                justify-content: space-around;
+            }
+        }
+        li{
+            list-style-type: none;
+            a{
+                padding: 10px 15px;
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 12px;
+                @media screen and (max-width: 767px) {
+                    &{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+// HEADER
+.header{
+    background-image: url('../img/banniere.jpg');
+    background-position: center center;
+    background-size: cover;
+    @media screen and (max-width: 767px) {
+        &{
+            background-position: 55% center;
+        }
+    }
+    .header-content{
+        padding-top: 180px;
+        padding-bottom: 250px;
+        @media screen and (max-width: 767px) {
+            &{
+                padding-top: 80px;
+                padding-bottom: 130px;
+            }
+        }
+    }
+    .header-content-title{
+        color: #fff;
+        line-height: 50px;
+        .yellow{
+            font-size: 84px;
+            @media screen and (max-width: 767px) {
+                &{
+                    font-size: 54px;
+                }
+            }
+        }
+        .subtitle{
+            font-family: 'Lato', sans-serif;
+            font-size: 50px;
+            font-weight: 400;
+            @media screen and (max-width: 767px) {
+                &{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+
+// SECTION INFOS
+.section-infos h2{
+    font-size: 50px;
+    @media screen and (max-width: 991px) {
+        &{
+            font-size: 40px;
+        }
+    }
+}
+.intervenant img{
+    height: 220px;
+}
+
+// SECTION EVENT & PROGRAM
+.event, .program{
+    padding: 100px 50px;
+    @media screen and (max-width: 991px) {
+        &{
+            padding: 70px 30px;
+        }
+    }
+}
+.event-title, .program-title{
+    font-size: 48px;
+    padding-bottom: 100px;
+    @media screen and (max-width: 991px) {
+        &{
+            font-size: 38px;    
+            padding-bottom: 70px;
+        }
+    }
+}
+.event{
+    background-color: $yellow;
+    color: #000;
+}
+.event-element{
+    padding: 20px 0;
+    border-top: 1px solid #000;
+}
+.program{
+    background-color: $blue;
+    color: #fff;
+}
+.program-element{
+    padding: 20px 0;
+    border-top: 1px solid #fff;
+}
+
+
+// SECTION PARTNERS
+.partners-title{
+    text-transform: uppercase;
+    padding-bottom: 100px;
+    font-size: 30px;
+}
+.partners-img{
+    width: auto;
+    height: 60px;
+}
+
+// FOOTER
+.footer{
+    background-color: #000;
+    color: #e6e3de;
+    .footer-link{
+        color: #e6e3de;
+    }
+}

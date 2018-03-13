@@ -1,0 +1,191 @@
+{% extends 'layout.twig' %}
+
+{% block head %}
+
+<title>Le title de la page d'accueil</title>
+
+{% endblock %}
+
+{% block topHeader %}
+  <!-- DÉBUT HEADER -->
+  <header class="header">
+{% endblock %}
+
+{% block bottomHeader %}
+<div class="ui one column row centered grid">
+    <div class="header-content">
+        <h1 class="header-content-title">
+        <span class="yellow">Premiere</span>
+        <br/>
+        <span class="subtitle">Journée scientifique</span>
+        </h1>
+    </div>
+  </div>
+</div> <!-- container -->
+</header>
+<!-- FIN HEADER -->
+{% endblock %}
+
+{% block content %}
+  
+
+  <div class="ui hidden divider"></div> <!-- hidden divider -->
+
+
+  <!-- DÉBUT SECTION INFOS -->
+  <section class="ui container section section-infos">  <!-- container -->
+      <div class="ui two column row stackable grid">
+          <div class="one wide column"></div> <!-- 1 column offset -->
+          <div class="seven wide column">
+            <h2>
+              Informations <span class="blue">&amp;</span>
+              <br/>
+              inscriptions
+            </h2>
+          </div>
+          <div class="seven wide column">
+            <p>Mesdames, Messieurs, Docteurs,</p>
+            <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quas rem dolor unde molestias corporis eos quo itaque, velit voluptatem, ut architecto laborum odio non atque officia sint cum corrupti?</b></p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At dolore quam nisi itaque minus eligendi quo magni nihil a velit. Sunt maxime fugit doloremque, a dicta facilis quo iusto alias molestiae aspernatur, nisi, autem iste?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae deleniti et amet reiciendis ipsum voluptate ullam. Veniam veritatis, delectus nisi ex ut obcaecati! Nihil error nostrum eius dolor harum laborum excepturi illum sequi accusamus repellat.</p>
+          </div>
+          <div class="one wide column"></div> <!-- 1 column offset -->
+      </div>  
+
+
+      <div class="ui hidden divider"></div> <!-- hidden divider -->
+      
+      <div class="ui four column stackable centered grid">
+        <div class="sixteen wide mobile eight wide tablet four wide computer column text-center intervenant">
+          <img src="public/img/intervenant_1.png" alt="Photo de l'intervenant 1">
+          <h4>Dr Lorem Ipsum</h4>
+          <span>lorem dolor ipsum</span>
+        </div>
+        <div class="sixteen wide mobile eight wide tablet four wide computer column text-center intervenant">
+          <img src="public/img/intervenant_2.png" alt="Photo de l'intervenant 2">
+          <h4>Dr Lorem Ipsum</h4>
+          <span>lorem dolor ipsum</span>
+        </div>
+        <div class="sixteen wide mobile eight wide tablet four wide computer column text-center intervenant">
+          <img src="public/img/intervenant_3.png" alt="Photo de l'intervenant 3">
+          <h4>Dr Lorem Ipsum</h4>
+          <span>lorem dolor ipsum</span>
+        </div>
+        <div class="sixteen wide mobile eight wide tablet four wide computer column text-center intervenant">
+          <img src="public/img/intervenant_4.png" alt="Photo de l'intervenant 4">
+          <h4>Dr Lorem Ipsum</h4>
+          <span>lorem dolor ipsum</span>
+        </div>
+      </div>
+    </section>  <!-- container -->
+    <!-- FIN SECTION INFOS -->
+
+
+
+    <!-- DÉBUT SECTION EVENT ET PROGRAM -->
+    <div class="ui container"> <!-- container -->
+      <div class="ui two column row stackable grid">
+        <div class="column">
+          <section class="event">
+            <h2 class="event-title">Comment profiter de votre événement ?</h2>
+            <div class="event-element">
+              <div class="ui two column row stackable grid">
+                <div class="four wide column">
+                  <img src="public/img/computer.png" alt="image s'inscrire">
+                </div>
+                <div class="twelve wide column">
+                  <h3>Inscrivez-vous</h3>
+                  <p>Inscrivez-vous gratuitement dés maintenant.</p>
+                </div>
+              </div>
+            </div>
+            <div class="event-element">
+              <div class="ui two column row stackable grid">
+                <div class="four wide column">
+                  <img src="public/img/hand.png" alt="image se connecter">
+                </div>
+                <div class="twelve wide column">
+                  <h3>Connectez-vous</h3>
+                  <p>Revenez le jour du direct pour participer et posez vos questions en direct.</p>
+                </div>
+              </div>
+            </div>
+            <div class="event-element">
+              <div class="ui two column row stackable grid">
+                <div class="four wide column">
+                  <img src="public/img/24.png" alt="image accessibilité">
+                </div>
+                <div class="twelve wide column">
+                  <h3>Différés accessibles h24 - 7/7</h3>
+                  <p>Profitez de votre évènement en différé et en illimité depuis chez vous.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="column">
+          <section class="program">
+            <h2 class="program-title">Programme</h2>
+            <div class="program-element">
+              <div class="ui two column row stackable grid">
+                <div class="four wide column">
+                  <p><b>8h30</b></p>
+                </div>
+                <div class="twelve wide column">
+                  <p>Accueil</p>
+                </div>
+              </div>
+            </div>
+            <div class="program-element">
+              <div class="ui two column row stackable grid">
+                <div class="four wide column">9h00 - 11:00</div>
+                <div class="twelve wide column">
+                  <p>Lorem ipsum dolor
+                    <br/>
+                    <b>Opérateur : </b> Dr Lorem Ipsum
+                    <br/>
+                    <b>Commentateur : </b> Dr Lorem Ipsum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="program-element">
+              <div class="ui two column row stackable grid">
+                <div class="four wide column">8h30</div>
+                <div class="twelve wide column">
+                  <h3>Accueil</h3>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>          
+      </div>
+    </div> <!-- container -->
+    <!-- FIN SECTION EVENT ET PROGRAM -->
+
+
+    
+    <!-- DÉBUT SECTION PARTNERS -->
+    <section class="ui container partners section">
+      <h2 class="text-center partners-title">avec l'aimable partcipation de</h2>
+      <div class="ui four column row stackable grid">
+        <div class="sixteen wide mobile eight wide tablet four wide computer column text-center">
+            <img class="partners-img" src="public/img/partenaires3.png" alt="">              
+        </div>
+        <div class="sixteen wide mobile eight wide tablet four wide computer column text-center">
+            <img class="partners-img" src="public/img/partenaires1.png" alt="">              
+        </div>
+        <div class="sixteen wide mobile eight wide tablet four wide computer column text-center">
+            <img class="partners-img" src="public/img/partenaires2.png" alt="">              
+        </div>
+        <div class="sixteen wide mobile eight wide tablet four wide computer column text-center">
+            <img class="partners-img" src="public/img/partenaires3.png" alt="">              
+        </div>
+      </div>
+    </section>
+    <!-- FIN SECTION PARTNERS -->
+
+  
+
+{% endblock %}
+

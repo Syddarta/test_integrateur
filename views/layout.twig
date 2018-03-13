@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+
+    {% block head %} {% endblock%}
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700" rel="stylesheet"> 
+    <link rel="stylesheet" href="public/css/libs/Semantic-UI-CSS-master/semantic.css">
+    <link href="public/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    {% block topHeader %} {% endblock %}
+      <div class="ui container"> <!-- container -->
+          <div class="ui two column row stackable grid">
+              <div class="eight wide column">
+                  <a href="/" class="logo" title="lien vers la page d'accueil"><img src="public/img/_logo.png" alt="logo the medical solutions"></a>
+              </div>
+              <div class="seven wide column">
+                  <nav class="nav">
+                      <ul class="menu">
+                          <li><a href="/" title="lien vers la page d'accueil">accueil</a></li>
+                          <li><a href="#" title="lien vers la page vidéo"><i class="icon youtube"></i>vidéo</a></li>
+                          <li><a href="#" title="lien vers la page à propos">à propos</a></li>                
+                      </ul>
+                  </nav>
+                  </div>
+                  <div class="one wide column"></div> <!-- 1 column offset -->
+              </div>
+            </div>
+        </div> <!-- container -->
+          {% block bottomHeader %} {% endblock %}
+          
+          
+
+    {% block content %} {% endblock content %}
+
+    {% include "footer.html" %}
+        
+  </body>
+</html>
